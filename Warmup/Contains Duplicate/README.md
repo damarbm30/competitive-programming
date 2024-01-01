@@ -8,5 +8,5 @@ Comparing the length of a set with the original array. Same length means there i
 
 ```mermaid
 graph TD;
-    Create an empty object-->Loop every element;
+    Createanemptyobject-->Loopeveryelement;
 ```
