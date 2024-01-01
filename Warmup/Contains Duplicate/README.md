@@ -8,7 +8,7 @@ Comparing the length of a set with the original array. Same length means there i
 
 ```mermaid
 graph TD;
-    A[Create an empty object]-->B[Loop every element];
+    A[Create an empty object]-->B[Loop through the array to check if the element already exist];
     B-->C[Is the element already exist?];
     C--Yes-->D[Return true];
     C--No-->E[Continue marking every element];
