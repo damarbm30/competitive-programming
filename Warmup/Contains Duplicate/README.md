@@ -14,3 +14,5 @@ graph TD;
     C--No-->E[Continue marking every element];
     E-->F[Return false when the loop is finished];
 ```
+
+To check if an element already exists, use the iterated element as a key with a default value of true. When iterated, if a property with that key has a value of true, it means that the same number must have been visited in the earlier iteration.
