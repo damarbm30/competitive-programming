@@ -1,13 +1,19 @@
 # Reverse Vowels
 
-Use two pointers
+Use two pointers to get the index of two elements.
+1. Convert the string into an array of characters
+2. Declare a left variable which is a 0 (to points to first index) and right variable which is the last index of the input string
+3. Increase the index if it founds a consonant
+4. Swap if both is a vowels
+5. Return the joined string if all characters is traversed, indicated by the index of left is greater than the right one
 
 ```mermaid
-graph TD;
-    A[Create an array of vowels]-->B[Split the input string to make it easier to manipulate];
-    B-->C[Traverse from first and last index until a vowel is found];
+graph TB;
+    A[Create an array of vowels]-->B[Split the input string to make it an array];
+    B-->C[Traverse from left and right until a vowel is found];
     C-->D[Swap the vowel from both sides];
     D-->E[Is left index greater than right index?];
-    E--Yes-->F[Return the joined string when the both sides meet (left > right)];
+    E--Yes-->F[Return the joined string];
     E--No-->C
+   
 ```
