@@ -8,5 +8,6 @@ graph TB;
     B-->C[Traverse from first and last index until a vowel is found];
     C-->D[Swap the vowel from both sides];
     D-->E[Is left index greater than right index?];
+    E--Yes-->F[Return the joined string when the both sides meet];
    
 ```
