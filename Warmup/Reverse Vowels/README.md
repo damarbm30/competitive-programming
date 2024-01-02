@@ -4,7 +4,8 @@ Use two pointers to get the index of two elements.
 1. Convert the string into an array of characters
 2. Declare a left variable which is a 0 (to points to first index) and right variable which is the last index of the input string
 3. Increase the index if it founds a consonant
-4. Swap if both vowels
+4. Swap if both is a vowels
+5. Return the joined string if all characters is traversed, indicated by the index of left is greater than the right one
 
 ```mermaid
 graph TB;
