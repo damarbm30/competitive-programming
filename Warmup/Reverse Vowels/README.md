@@ -9,5 +9,4 @@ graph TB;
     C-->D[Swap the vowel from both sides];
     D-->E[Is left index greater than right index?];
     E--Yes-->F[Return the joined string when the both sides meet (left > right)];
-    E--No-->C[]
 ```
